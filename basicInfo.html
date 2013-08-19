@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="basicInfo">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html" class="ui-btn-active ui-state-persist">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Basic Info</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Title</li>
+					<li data-theme="d">The Canterbury Tales</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Author</li>
+					<li data-theme="d">Geoffrey Chaucer</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Published</li>
+					<li data-theme="d">The novel was written in the late 1300's, and first published in the early 1400's.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Genre</li>
+					<li data-theme="d">Parody, Satire, Romance, as well as Character Portraits.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Setting</li>
+					<li data-theme="d">The story is set in the late 1300's at the Tabard Inn as well as the road to Canterbury.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Point Of View</li>
+					<li data-theme="d">The story is told from both the first and third person by one of the members of the pilgrims. 
+					He or she speaks in the first person in the general prologue and the third when retelling the other group members' tales.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Conflict</li>
+					<li data-theme="d">The conflict seen in The Canterbury Tales is mainly between the different members of the group 
+					caused by the differences between social classes, moral views, and professions.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Canterbury Tales</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

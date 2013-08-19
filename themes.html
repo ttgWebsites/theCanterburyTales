@@ -1,0 +1,71 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Courtly love</li>
+					<li data-theme="d">Throughout Chaucer's tales the idea of courtly love is very prevalent</li>
+					<li data-theme="c">Courtly love refers to a medieval ideal that for some, particularly in non married couples, love was very overwhelming, powerful, and even erotic</li>
+					<li data-theme="d">Some for example were so overcome by love they could not eat, sleep, or live without their partner</li>
+					<li data-theme="c">This ideal was not so much occurring during the middle ages, however it was very often discussed in literature</li>
+					<li data-theme="d">Their are two specific examples in the Canterbury tales, the Squire in the General Prologue, and the Prioress</li>
+					<li data-theme="c">The Squire's example of courtly love is scene throughout the prologue, and it effects the way he dresses, acts, and tells his stories</li>
+					<li data-theme="d">The Prioress has a brooch that reads "love conquers all" another distinct example of the idea of courtly love</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The corrupt church</li>
+					<li data-theme="d">During the time period The Canterbury Tales was written, the Catholic church was widely criticized</li>
+					<li data-theme="c">This was a time period of great famine and suffering for many people in Europe, yet the Catholic Church was very wealthy</li>
+					<li data-theme="d">The Church was building enormous cathedrals decorated ornately with lots of gold, which seemed to an extent absolutely ridiculous</li>
+					<li data-theme="c">Their were many stories of corrupt church members who took bribes, and were extremely well off and didn't lack the decency to look twice at the poor and suffering</li>
+					<li data-theme="d">Chaucer mocks the church in his writing with his characters</li>
+					<li data-theme="c">Many of his characters affiliated with the church are shown to stray from the normal churchly duties</li>
+					<li data-theme="d">They seem to prefer the life of the aristocrat rather than the devotional life</li>
+					<li data-theme="c">The narrator seems to harbor a grudge towards ecclesiastical officials, and often describes them in poor light</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The importance of company</li>
+					<li data-theme="d">Throughout the tales Chaucer emphasizes the importance of company</li>
+					<li data-theme="c">Specifically a group of socially close people. During the medieval time period, a community's success depended on the social groups of workers and how close they people were connected</li>
+					<li data-theme="d">These companies often ate together, and had meeting halls that allowed them to stay in constant contact with one another</li>
+					<li data-theme="c">Chaucer uses company a lot during his tales, as often at the end of the tales, the person telling it would refer to the company of people and wish them well</li>
+					<li data-theme="d">Companies allowed a level playing field for the lower class, as it allowed them to come together and therefore took away some of the power of the noble authority</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Canterbury Tales</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
